@@ -1,21 +1,21 @@
 # Gator
-Gator RSS Blog Feed Aggregator project\\
+Gator RSS Blog Feed Aggregator project\
 
 ## Pre-requisites
-PostgreSQL and Go need to be installed\\
+PostgreSQL and Go need to be installed\
 
 ## Build Gator
-Run `go install` to install the Gator CLI from the Gator directory in the terminal.\\
+Run `go install` to install the Gator CLI from the Gator directory in the terminal.\
 
 ## Config file
-A config file needs to be created in your home directory. Name the file .gatorconfig.json containing the following:\\
+A config file needs to be created in your home directory. Name the file .gatorconfig.json containing the following:\
 
 `{
   "db_url": "postgres://example"
 }`
 
 ## Running Gator
-After installing the Gator CLI per instructions above, the following commands can be used to interact with it:\\
+After installing the Gator CLI per instructions above, the following commands can be used to interact with it:\
 
 `gator login <username>` Logs in as given username\
 `gator register <username>` Adds a new user to Gator\
